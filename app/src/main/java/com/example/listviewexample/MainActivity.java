@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
      */
     private void usingDataArray() {
         LinkedList<Pet> content  = new LinkedList<>();
-        content.add(new Pet("name 1", "breed 1", 5));
-        content.add(new Pet("name 2", "breed 2", 10));
-        content.add(new Pet("name 3", "breed 3", 15));
+        content.add(new Pet("dog", "Golden Retriever", 5));
+        content.add(new Pet("doug", "Beagle", 10));
+        content.add(new Pet("god", "Checkoslovaquian Wolf Dog", 15));
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, content);
         petListView.setAdapter(adapter);
     }
