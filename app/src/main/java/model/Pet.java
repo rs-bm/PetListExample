@@ -10,4 +10,8 @@ public class Pet {
         this.breed = breed;
         this.age = age;
     }
+    public String toString() {
+        return (name + " (" + breed + "): " + age);
+    }
+
 }
