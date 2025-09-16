@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string-array name="breeds">
         <item>Labrador</item>
         <item>Java</item>
@@ -8,5 +9,7 @@
         <item>Golden Retriever</item>
         <item>Alaskan Malamute</item>
         <item>Frenchie</item>
+        <item>Checkoslovaquian Wolf Dog</item>
     </string-array>
+
 </resources>
